@@ -6,7 +6,8 @@
  * Return: Non Return.
  */
 
-void binary_tree_delete(binary_tree_t *tree) {
+void binary_tree_delete(binary_tree_t *tree)
+{
 
 	if (!tree)
 		return;
